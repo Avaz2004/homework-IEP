@@ -3,7 +3,6 @@ def create_cook_book(file_name):
     
     with open(file_name, 'r') as file:
         lines = file.readlines()
-        
         i = 0
         while i < len(lines):
             dish_name = lines[i].strip()
